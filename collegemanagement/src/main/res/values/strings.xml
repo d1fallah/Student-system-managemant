@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">College Management</string>
+    <string name="login">Login</string>
+    <string name="email">E-mail</string>
+    <string name="pwd">Password</string>
+    <string name="admin_login">Admin</string>
+    <string name="teacher_login">Teacher</string>
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="navigation_open">Open Navigation drawer</string>
+    <string name="navigation_close">Close Navigation drawer</string>
+    <string name="update">Update</string>
+    <string name="ksit_logo">ksit_logo</string>
+    <string name="add">Add</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="logo">Students Logo</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="student_dashboard">Student Dashboard</string>
+    <string name="students">Students</string>
+    <string name="teachers">Teachers</string>
+    <string name="marks">Marks</string>
+    <string name="attendance">Attendance</string>
+    <string name="subjects">Subjects</string>
+    <string name="logout">Log Out</string>
+    <string name="submit">Submit</string>
+    <string name="teacher_dashboard">Teacher Dashboard</string>
+    <string-array name="roles_array">
+        <item>teacher</item>
+        <item>student</item>
+    </string-array>
+    <string name="student_icon">Student Icon</string>
+
+</resources>

@@ -1,0 +1,104 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.collegemanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ksit_logo_edited"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ksit_logo_edited"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CollegeManagement"
+        tools:ignore="LockedOrientationActivity">
+
+        <!-- REMOVE AddCollection (optional, since you don't use it anymore) -->
+
+        <activity android:name="com.example.collegemanagement.StudentPage"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.UpdateDocument"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.ViewDocuments"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.TeacherPage"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.AddUser"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi" />
+
+        <activity android:name="com.example.collegemanagement.AdminPage"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ADD these missing ones below -->
+
+        <activity android:name="com.example.collegemanagement.ViewStudentsForMarks"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.EnterMarksActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.StudentMarksActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.SendReportActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+
+        <activity android:name="com.example.collegemanagement.ViewReportsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+        <activity android:name="com.example.collegemanagement.ModifyProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DiscouragedApi"/>
+        <activity android:name="com.example.collegemanagement.ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+</manifest>
